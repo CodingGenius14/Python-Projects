@@ -26,7 +26,7 @@ def greeting():
 
 
 def take_in_audio():
-
+    # Get users audio
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening")
