@@ -28,7 +28,7 @@ if trade == "Y":
         print("Item to add Liquid Metal Shield\n")
         inventory[item_number_index] = "Liquid Metal Shield"
 
-    os.system('clear')
+    os.system('cls')
 
     print("The items in your current inventory are:\n")
     for i in range(len(inventory)):
@@ -37,7 +37,7 @@ if trade == "Y":
     print()
 
     add_items = input("Would you like to to add items to your inventory? (y) Yes or (n) No: ").lower()
-    os.system('clear')
+    os.system('cls')
 
     if add_items == "y":
         while len(inventory) < 5:
@@ -46,7 +46,7 @@ if trade == "Y":
             print()
             inventory.append(item_to_add)
 
-        os.system('clear')
+        os.system('cls')
 
         print("Your inventory is now currently filled!\nYour current inventory is:")
         for i in range(len(inventory)):
@@ -60,7 +60,7 @@ if trade == "Y":
                 "What item do you want to swap out? (Type the item the way it is seen in the inventory) ")
             item_to_place = input("What item do you want to replace it with? ")
             inventory[inventory.index(final_swap_item)] = item_to_place
-            os.system('clear')
+            os.system('cls')
 
             print("Here is your final inventory:")
             for i in range(len(inventory)):
