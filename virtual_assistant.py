@@ -91,3 +91,6 @@ if __name__ == '__main__':
         elif 'open vs code' in query:
             vs_code_path = 'C:\\Users\\kanik\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
             os.startfile(vs_code_path)
+        elif 'open pie charm' in query:
+            pycharm_code_path = "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1.3\\bin\\pycharm64.exe"
+            os.startfile(pycharm_code_path)
