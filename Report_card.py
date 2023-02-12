@@ -29,9 +29,7 @@ for grades in range(num_of_classes):
     grades = input(f"What is your letter grade in {arr_classes[grades]}? ").upper()
     arr_grades.append(grades)
 
-
-
-
+    
 for grade in arr_grades:
     if grade == 'A':
         total += 4
